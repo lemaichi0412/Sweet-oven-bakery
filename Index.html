@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Sweet Oven Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <!-- Logo -->
+        <a href="Index.html" class="logo">
+          <svg class="logo-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.506 2.506 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z"></path>
+          </svg>
+          <div class="logo-text">
+            <h1>SWEET OVEN BAKERY</h1>
+            <p>Bánh tươi mới mỗi ngày</p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav">
+          <a href="#home" id="nav-home">Trang chủ</a>
+          <a href="#about_us" id="nav-about">Về chúng tôi</a>
+          <a href="#products" id="nav-products">Sản phẩm</a>
+          <a href="#delivery_&_payment" id="nav-delivery">Giao hàng & Thanh toán</a>
+        </nav>
+
+        <!-- Shopping Bag -->
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <svg class="shopping-bag" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+          </svg>
+
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+            <svg id="menu-icon" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            <svg id="close-icon" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display: none;">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <nav class="mobile-menu" id="mobile-menu">
+        <a href="#home">Trang chủ</a>
+        <a href="#about_us">Về chúng tôi</a>
+        <a href="#products">Sản phẩm</a>
+        <a href="#delivery_&_payment">Giao hàng & Thanh toán</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>SWEET OVEN BAKERY</h1>
+      <p class="slogan">“Bánh tươi mỗi ngày cho những khoảnh khắc ngọt ngào nhất của bạn.”</p>
+      <p class="description">
+        Khám phá những chiếc bánh và bánh ngọt thủ công, được nướng tươi mỗi ngày với tình yêu và nguyên liệu hảo hạng nhất.      </p>
+      <div class="btn-group">
+        <a href="#products" class="btn btn-primary">Xem menu</a>
+        <a href="#about_us" class="btn btn-outline">Câu chuyện của chúng tôi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us -->
+  <section id="about_us" class="section bg-white">
+    <div class="container">
+      <div class="section-title">
+        <h2>Về Sweet Oven Bakery</h2>
+        <p style="color: #374151;">Khám phá những chiếc bánh và bánh ngọt thủ công, được nướng tươi mỗi ngày với tình yêu và nguyên liệu hảo hạng nhất.</p>
+      </div>
+
+      <div class="about-content">
+        <p>
+            Sweet Oven Bakery là một tiệm bánh ấm cúng chuyên về các loại bánh và bánh ngọt thủ công. Chúng tôi sử dụng nguyên liệu chất lượng cao và nướng bánh tươi mỗi ngày để mang đến những món bánh thơm ngon, ấm áp cho khách hàng.        </p>
+        <p>
+            Mỗi sản phẩm ra lò đều được làm bằng sự chăm chút, đam mê và tỉ mỉ trong từng chi tiết. Từ những hương vị truyền thống đến các công thức sáng tạo mới, chúng tôi đảm bảo mỗi miếng bánh đều có sự cân bằng hoàn hảo về hương vị và kết cấu.        </p>
+        <p>
+            Cam kết của chúng tôi rất đơn giản: tạo ra những khoảnh khắc hạnh phúc thông qua những món bánh không chỉ ngon mà còn được làm bằng cả tấm lòng. Dù là sinh nhật, buổi trà chiều ấm cúng hay chỉ đơn giản là một cơn thèm ngọt, Sweet Oven Bakery luôn sẵn sàng làm ngày của bạn thêm rực rỡ.        </p>
+      </div>
+
+      <!-- Founder Section -->
+      <div class="founder-section">
+        <h3 style="text-align: center; font-size: 2.4rem; color: #78350f; margin-bottom: 2rem;">GẶP GỠ NGƯỜI SÁNG LẬP</h3>
+        <div class="founder-grid">
+          <div class="founder-image">
+            <img src="Founder.jpg" alt="Le Mai Chi - Founder">
+          </div>
+          <div class="founder-info">
+            <h4>Lê Mai Chi</h4>
+            <p class="role">Người sáng lập & Bếp trưởng bánh</p>
+            <p>
+                Được sáng lập bởi một thợ làm bánh đầy đam mê, Sweet Oven Bakery ra đời với mong muốn lan tỏa niềm vui và sự ngọt ngào trong từng miếng bánh.            </p>
+            <p>
+                Với hơn 8 năm kinh nghiệm trong lĩnh vực làm bánh và bánh ngọt, Linh Chi đã dành trọn sự nghiệp của mình để hoàn thiện công thức và tạo ra những món bánh đáng nhớ cho mọi dịp đặc biệt.            </p>
+            <p>
+                “Làm bánh không chỉ là nghề nghiệp đối với tôi — đó là cách tôi lan tỏa hạnh phúc. Mỗi chiếc bánh đều mang theo một phần trái tim của tôi, và tôi hy vọng nó sẽ mang lại nụ cười cho bất kỳ ai thưởng thức.”            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why choose us -->
+      <div>
+        <h3 style="text-align: center; font-size: 2rem; color: #78350f; margin-bottom: 3rem;">Tại sao nên chọn chúng tôi</h3>
+        <div class="values-grid">
+          <div class="value-item">
+            <div class="value-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+              </svg>
+            </div>
+            <h4>Bánh tươi mỗi ngày</h4>
+            <p>Tất cả sản phẩm đều được nướng tươi mỗi buổi sáng từ những nguyên liệu tốt nhất.</p>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+              </svg>
+            </div>
+            <h4>Làm bằng cả tấm lòng</h4>
+            <p>Mỗi sản phẩm đều được làm thủ công với sự tỉ mỉ, đam mê và chú ý đến từng chi tiết.</p>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.506 2.506 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z"></path>
+              </svg>
+            </div>
+            <h4>Nguyên liệu chất lượng</h4>
+            <p>Chúng tôi sử dụng chỉ những nguyên liệu cao cấp để đảm bảo hương vị tuyệt vời trong từng miếng bánh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Products -->
+  <section id="products" class="section bg-gradient">
+    <div class="container">
+      <div class="section-title">
+        <h2>Sản phẩm của chúng tôi</h2>
+        <p style="color: #374151;">Bánh và bánh ngọt thủ công được nướng tươi mỗi ngày</p>
+      </div>
+    </div>
+
+  <!-- Category Filters -->
+    <div class="container">
+      <div class="category-filters">
+        <button class="category-btn active" onclick="filterProducts('All')">All</button>
+        <button class="category-btn" onclick="filterProducts('Cakes')">Cakes</button>
+        <button class="category-btn" onclick="filterProducts('Pastries')">Pastries</button>
+        <button class="category-btn" onclick="filterProducts('Cupcakes')">Cupcakes</button>
+      </div>
+    </div>
+
+  <!-- Products Grid -->
+    <div class="container">
+      <div class="products-grid" id="products-container">
+        <!-- Red Velvet Cake -->
+        <div class="product-card" data-category="Cakes">
+          <div class="product-image">
+            <img src="red-velvet-cake-11.png" alt="Red Velvet Cake">
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cakes</p>
+            <h3 class="product-name">Red Velvet Cake</h3>
+            <p class="product-price">₫340,000</p>
+            <p style="color: #6b7280; margin-top: 0.5rem;">
+                Bánh red velvet mềm mịn với các lớp kem phô mai mượt mà.
+            </p>
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <!-- Chocolate Cake -->
+        <div class="product-card" data-category="Cakes">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1645805740318-31bb7604ffd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Chocolate Cake">
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cakes</p>
+            <h3 class="product-name">Chocolate Cake</h3>
+            <p class="product-price">₫320,000</p>
+            <p style="color: #6b7280; margin-top: 0.5rem;">
+                Bánh bông lan socola đậm đà với lớp kem socola mịn màng.
+            </p>
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <!-- Almond Croissant -->
+        <div class="product-card" data-category="Pastries">
+          <div class="product-image">
+            <img src="d35e4f45-92fb-4791-b25b-a20cae8cd7d8_DSC05533.jpg_original.jpg" alt="Almond Croissant">
+          </div>
+          <div class="product-info">
+            <p class="product-category">Pastries</p>
+            <h3 class="product-name">Almond Croissant</h3>
+            <p class="product-price">₫55,000</p>
+            <p style="color: #6b7280; margin-top: 0.5rem;">
+              Bánh croissant giòn rụm với nhân kem hạnh nhân và phủ lát hạnh nhân rang.
+            </p>
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <!-- Chocolate Cupcake -->
+        <div class="product-card" data-category="Cupcakes">
+          <div class="product-image">
+            <img src="Unnamedattachment.png" alt="Chocolate Cupcake">
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cupcakes</p>
+            <h3 class="product-name">Chocolate Cupcake</h3>
+            <p class="product-price">₫60,000</p>
+            <p style="color: #6b7280; margin-top: 0.5rem;">
+                Cupcake socola đậm vị với lớp kem bơ socola mịn màng.
+            </p>
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+
+        <!-- Strawberry Shortcake -->
+        <div class="product-card" data-category="Cakes">
+          <div class="product-image">
+            <img src="images.jpg" alt="Strawberry Shortcake">
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cakes</p>
+            <h3 class="product-name">Strawberry Shortcake</h3>
+            <p class="product-price">₫350,000</p>
+            <p style="color: #6b7280; margin-top: 0.5rem;">
+              Bánh vanilla mềm mịn phủ dâu tươi và lớp kem tươi nhẹ.
+            </p>
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <!-- Butter Croissant -->
+        <div class="product-card" data-category="Pastries">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1681218079567-35aef7c8e7e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Butter Croissant">
+          </div>
+          <div class="product-info">
+            <p class="product-category">Pastries</p>
+            <h3 class="product-name">Butter Croissant</h3>
+            <p class="product-price">₫45,000</p>
+            <p style="color: #6b7280; margin-top: 0.5rem;">
+                Croissant bơ giòn xốp, được làm thủ công và nướng mới mỗi ngày.
+            </p>
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <!-- Classic Vanilla Cupcake -->
+        <div class="product-card" data-category="Cupcakes">
+          <div class="product-image">
+            <img src="Classic-Vanilla-Cupcakes.jpg" alt="Classic Vanilla Cupcake">
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cupcakes</p>
+            <h3 class="product-name">Classic Vanilla Cupcake</h3>
+            <p class="product-price">₫55,000</p>
+            <p style="color: #6b7280; margin-top: 0.5rem;">
+              Cupcake vanilla ẩm mềm với lớp kem bơ béo mịn phủ nhẹ lớp cốm.
+            </p>
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <!-- Strawberry Cupcake -->
+        <div class="product-card" data-category="Cupcakes">
+          <div class="product-image">
+            <img src="STRAWBERRY-VANILLA-CUPCAKES-S-01.jpg" alt="Strawberry Cupcake">
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cupcakes</p>
+            <h3 class="product-name">Strawberry Cupcake</h3>
+            <p class="product-price">₫60,000</p>
+            <p style="color: #6b7280; margin-top: 0.5rem;">
+              Cupcake vanilla mềm mịn với kem bơ dâu và vị trái cây nhẹ nhàng.
+            </p>
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="section-title">
+        <h2>Đánh giá của khách hàng</h2>
+        <p>Khách hàng nói gì về chúng tôi?</p>
+      </div>
+
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div class="stars">
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          </div>
+          <p class="review-comment">"Bánh mềm xốp và được trang trí rất đẹp. Rất đáng để thử!"</p>
+          <div class="review-footer">
+            <p class="review-name">— Nguyễn Thị Mai</p>
+            <p class="review-date">Tháng Một 2026</p>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div class="stars">
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          </div>
+          <p class="review-comment">"Bánh mềm xốp, hương vị ngon và dịch vụ thân thiện."</p>
+          <div class="review-footer">
+            <p class="review-name">— Trần Đức Anh</p>
+            <p class="review-date">Tháng Mười Hai 2025</p>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div class="stars">
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            <svg class="star filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          </div>
+          <p class="review-comment">"Bánh ngon, hoàn hảo cho sinh nhật và các dịp đặc biệt."</p>
+          <div class="review-footer">
+            <p class="review-name">— Lê Thanh Hà</p>
+            <p class="review-date">Tháng Mười Một 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery & Payment -->
+  <section id="delivery_&_payment" class="section bg-gradient">
+    <div class="container">
+      <div class="section-title">
+        <h2>Giao hàng & Thanh toán</h2>
+        <p style="color: #374151;">Giao hàng nhanh chóng và các phương thức thanh toán an toàn để bạn tiện lợi hơn</p>
+      </div>
+    </div>
+
+  <!-- Delivery & Payment Content -->
+    <div class="container" style="max-width: 70rem;">
+      <!-- Delivery Methods -->
+      <div style="margin-bottom: 4rem;">
+        <div class="icon-title">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"></path>
+          </svg>
+          <h3>Phương thức giao hàng</h3>
+        </div>
+
+        <div class="delivery-grid">
+          <div class="delivery-card">
+            <h4>Nhận tại cửa hàng</h4>
+            <p>Quý khách có thể đến nhận đơn hàng tại tiệm bánh của chúng tôi ở Quận 1, Thành phố Hồ Chí Minh.</p>
+            <p class="delivery-price">MIỄN PHÍ - Có trong 2 giờ</p>
+          </div>
+
+          <div class="delivery-card">
+            <h4>Giao hàng trong ngày</h4>
+            <p>Đặt hàng trước 2 PM để nhận hàng trong ngày tại TP.HCM</p>
+            <p class="delivery-price">₫30,000 - MIỄN PHÍ cho đơn hàng trên ₫200,000</p>
+          </div>
+
+          <div class="delivery-card">
+            <h4>Giao hàng tiêu chuẩn</h4>
+            <p>Giao hàng trong 1-2 ngày trong khu vực TP.HCM</p>
+            <p class="delivery-price">₫25,000</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment Methods -->
+      <div style="margin-bottom: 3rem;">
+        <div class="icon-title">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+          </svg>
+          <h3>Phương thức thanh toán</h3>
+        </div>
+
+        <div class="payment-grid">
+          <div class="payment-card">
+            <h4>Thanh toán khi nhận hàng</h4>
+            <p>Thanh toán bằng tiền mặt hoặc chuyển khoản khi nhận hàng.</p>
+          </div>
+
+          <div class="payment-card">
+            <h4>Chuyển khoản ngân hàng</h4>
+            <p style="margin: 0.5rem 0;">Vietcombank</p>
+            <p style="margin: 0.5rem 0;">Số tài khoản: 0987654321</p>
+            <p style="margin: 0.5rem 0;">Tên tài khoản: SWEET OVEN BAKERY</p>
+          </div>
+
+          <div class="payment-card">
+            <h4>Ví điện tử</h4>
+            <p>MoMo, ZaloPay</p>
+          </div>
+
+          <div class="payment-card">
+            <h4>Thẻ tín dụng / ghi nợ</h4>
+            <p>Visa, Mastercard, và các thẻ nội địa được chấp nhận</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Info -->
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-card-header">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+            </svg>
+            <h4>Chính sách đặt hàng</h4>
+          </div>
+          <p>Đơn hàng có thể được hủy bỏ trong vòng 1 giờ trước thời gian giao hàng. Hoàn tiền sẽ được xử lý trong vòng 3-5 ngày làm việc.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-header">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+            <h4>Bảo đảm chất lượng</h4>
+          </div>
+          <p>Tất cả sản phẩm đều được làm trong ngày. Nếu bạn không hài lòng với bất kì sản phẩm nào, hãy liên hệ với chúng tôi trong vòng 24 giờ để được đổi sản phẩm.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section bg-amber cta-section">
+    <div class="container">
+      <h2>Đặt món yêu thích của bạn ngay hôm nay</h2>
+      <p>Bánh tươi và bánh ngọt giao tận cửa</p>
+      <a href="#products" class="btn btn-outline" style="background-color: white; color: #b45309; border-color: white;">Đặt hàng ngay</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- About -->
+        <div class="footer-section">
+          <h3>SWEET OVEN BAKERY</h3>
+          <p style="font-style: italic; color: #fde68a;">
+            “Bánh tươi mỗi ngày cho những khoảnh khắc ngọt ngào nhất của bạn.”
+          </p>
+          <p>
+            Bánh và bánh ngọt thủ công được làm bằng cả tấm lòng và nguyên liệu hảo hạng.
+          </p>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-section">
+          <h3>Liên hệ với chúng tôi</h3>
+          <div class="contact-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            <span>
+                <a href="https://www.google.com/maps/search/?api=1&query=District+1+Ho+Chi+Minh+City" target="_blank">Quận 1, Thành phố Hồ Chí Minh</a>
+            </span>
+          </div>
+          <div class="contact-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+            </svg>
+            <span><a href="tel:0987654321">0987 654 321</a></span>
+          </div>
+          <div class="contact-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+            <span><a href="mailto:sweetovenbakery@gmail.com">sweetovenbakery@gmail.com</a></span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h3>Liên kết nhanh</h3>
+          <ul>
+            <li><a href="#about_us">Về chúng tôi</a></li>
+            <li><a href="#products">Sản phẩm</a></li>
+            <li><a href="#delivery_&_payment">Giao hàng & Thanh toán</a></li>
+            <li><a href="terms.html">Điều khoản & Điều kiện</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-section">
+          <h3>Bản tin</h3>
+          <p>
+            Đăng ký ngay để nhận thông tin về bánh mới cũng như ưu đãi đặc biệt
+          </p>
+          <form class="newsletter-form" onsubmit="return subscribeNewsletter(event)">
+            <input type="email" class="newsletter-input" placeholder="Email của bạn" required>
+            <button type="submit" class="newsletter-btn">Đăng ký</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <!-- Social Media -->
+        <div class="social-links">
+          <a href="https://www.facebook.com/" aria-label="Facebook">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/" aria-label="Instagram">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"></path>
+            </svg>
+          </a>
+          <a href="https://www.tiktok.com/" aria-label="TikTok">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"></path>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="copyright">
+          © 2025 Sweet Oven Bakery. Bảo lưu mọi quyền.
+        </p>
+
+        <!-- License Badge -->
+        <div class="license-badge">
+          <img src="logo-da-thong-bao-bo-cong-thuong.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    //header
+        // Mobile menu toggle
+    function toggleMobileMenu() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      const menuIcon = document.getElementById('menu-icon');
+      const closeIcon = document.getElementById('close-icon');
+      
+      mobileMenu.classList.toggle('active');
+      
+      if (mobileMenu.classList.contains('active')) {
+        menuIcon.style.display = 'none';
+        closeIcon.style.display = 'block';
+      } else {
+        menuIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+      }
+    }
+
+    // Set active navigation link
+    const currentPage = window.location.pathname.split('/').pop();
+    const navLinks = {
+      'home': 'nav-home',
+      'about_us': 'nav-about',
+      'products': 'nav-products',
+      'delivery_&_payment': 'nav-delivery'
+    };
+    
+    if (navLinks[currentPage]) {
+      const activeLink = document.getElementById(navLinks[currentPage]);
+      if (activeLink) {
+        activeLink.classList.add('active');
+      }
+    }
+
+    // Load footer from external HTML file
+        function subscribeNewsletter(event) {
+      event.preventDefault();
+      const email = event.target.querySelector('input[type="email"]').value;
+      alert('Thank you for subscribing to our newsletter!');
+      event.target.reset();
+      return false;
+    }
+
+        // Filter products
+    function filterProducts(category) {
+      const products = document.querySelectorAll('.product-card');
+      const buttons = document.querySelectorAll('.category-btn');
+      
+      // Update button states
+      buttons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.textContent === category) {
+          btn.classList.add('active');
+        }
+      });
+
+      // Filter products
+      products.forEach(product => {
+        const productCategory = product.getAttribute('data-category');
+        if (category === 'All' || productCategory === category) {
+          product.style.display = 'block';
+        } else {
+          product.style.display = 'none';
+        }
+      });
+    }
+
+    // Add to cart function
+    function addToCart(productName, productPrice) {
+      alert(`${productName} (₫${productPrice.toLocaleString('vi-VN')}) has been added to your cart!`);
+      // You can expand this function to implement actual cart functionality
+    }
+
+  </script>
+</body>
+</html>
